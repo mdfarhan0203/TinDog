@@ -5,7 +5,7 @@ Start up landing page for a fictional application named TinDog. TinDog allows th
 <h2>Deployment</h2>
 <h4>Demo:https://mdfarhan0203.github.io/TinDog/ </h4>
 
-<h2>pics</h2>
+<h2>Pics</h2>
 
 ![TinDog1](https://user-images.githubusercontent.com/50393822/234890304-9625f8b6-6a07-4d32-a7ca-6e4582bff947.jpg)
 
