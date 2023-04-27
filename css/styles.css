@@ -1,0 +1,229 @@
+
+/* -----------------------------    GLOBAL CSS      ------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat, sans-serif';
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Black';
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #fff;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    padding-bottom: 5%;
+    color: #1f1f1f;
+}
+h3{
+    color: black;
+}
+
+p{
+    font-family: 'Montserrat';
+    color: #1f1f1f;
+}
+
+.section-color{
+    background-color: #ff4c68;
+
+}
+.section-white{
+    background-color: #fff;
+}
+.container-fluid {
+    padding: 2% 15%;
+}
+
+
+/* -----------------------------    TITLE CSS      ------------------------- */
+
+#title {
+    color: #fff;
+}
+/* .container-fluid {
+    padding: 2% 15%;
+} */
+/* -----------------------------    NAVBAR CSS      ------------------------- */
+
+.navbar-nav {
+    padding: 4rem;
+}
+
+.nav-link {
+    color: #e0d8d2c3;
+    font-family: 'Montserrat-light';
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.download-botton {
+    margin:1rem;
+}
+.title-image {
+    width: 50%;
+    transform: rotate(25deg);
+ 
+}
+.title-row{
+    text-align: left;
+}
+
+
+/* -----------------------------    FEATURE CSS      ------------------------- */
+
+#features {
+/* padding: 10% 15%; */
+/* position: absolute;   //HALF IMAGE DOIWN Z INDEX NOT DONE
+z-index: 1; */
+
+}
+.feature-box{
+    color: black;
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;
+} 
+
+.feature-icon {
+    color: #ef8172;
+    padding-bottom: 3rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+
+.feature-disp {
+    margin-bottom: 2rem;
+    color: #8f8f8f;
+}
+
+/* -----------------------------    TESTIMONIALS CSS      ------------------------- */
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+}
+.testimonial-heading{
+    color: #fff;
+}
+em{
+    padding-left: 1rem;
+}
+
+
+/* -----------------------------    PRESS CSS      ------------------------- */
+
+#press {
+   padding: 5% 0;
+
+}
+.press-image {
+    width: 20%;
+    padding: 0 1rem;
+}
+
+/* -----------------------------    PRICE CSS      ------------------------- */
+
+.card{
+    margin-right: 2rem;
+}
+.card-item{
+    padding-bottom: 5%;
+} 
+
+ .pricing-h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat-Bold';
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 0%;
+} 
+
+.body-item{
+    margin-bottom: 10%;
+    padding:0;
+} 
+
+.title-card{
+    margin-top: 0; 
+    background-color:rgba(138, 129, 129, 0.739);
+    padding-top:1rem; 
+    padding-bottom:1rem;  
+     padding: 1rem 0;
+} 
+
+/* -----------------------------    CALL TO ACTION CSS      ------------------------- */
+
+#cta{
+    padding: 10% 15%;
+}
+.cta-heading{
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+.cta-download-btn{
+    background-color: red;
+}
+
+/* -----------------------------    FOOTER CSS      ------------------------- */
+#footer{
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+.fotter-icon{
+    color: rgb(33, 29, 29);
+    padding-left: 2rem;
+}
+.author{
+    font-family: 'Montserrat';
+    color: #1f1f1f;
+    padding-top: 2rem;
+    font-weight: 500;
+}
+.creater{
+    color: #ff4c68;
+    font-weight: 600;
+}
+
+
+
+/* -----------------------------    MEDIA QUERY CSS      ------------------------- */
+
+@media (max-width:991px){
+    #title{
+        align-items: center;
+    }
+    .title-image{
+        transform: rotate(0);
+    }
+    .container-fluid {
+        text-align: center;
+    }
+    .title-row{
+        text-align: center;
+    }
+}
